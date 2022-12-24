@@ -79,3 +79,5 @@ conn.sync({ force: setter }).then(() => {
     }
   });
 });
+
+module.export = { conn };
